@@ -6,3 +6,8 @@ Martim Neves e Gonçalo Branco
 
 ## Tema / Ideia Central 
 Historia de personagens de One Piece
+
+## URL do site
+https://mfn9797.github.io/ProjetoPWLEI/
+
+## Api a usar

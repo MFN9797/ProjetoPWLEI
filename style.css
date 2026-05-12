@@ -1,0 +1,29 @@
+/* Variáveis de cores para facilitar mudanças */
+
+:root {
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-main: #f0f0f0;
+    --text-muted: #a0a0a0;
+    --accent-color: #e6b800; / Dourado estilo "tesouro" */
+}
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+}
+
+/* --- RODAPÉ --- */
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-muted);
+    margin-top: 2rem;
+}

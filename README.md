@@ -11,3 +11,4 @@ Historia de personagens de One Piece
 https://mfn9797.github.io/ProjetoPWLEI/
 
 ## Api a usar
+https://api.jikan.moe/v4/anime/21/characters

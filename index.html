@@ -13,7 +13,7 @@
         <div class="header-content">
             <h1>🏛️ Biblioteca de Ohara</h1>
             <p>A tua fonte de histórias das personagens de One Piece</p>
-           
+            
             <!-- Barra de Pesquisa -->
             <div class="search-bar">
                 <!-- Wrapper para manter a lista agarrada ao input -->
@@ -26,8 +26,28 @@
         </div>
     </header>
 
+    <!-- Onde os cartões das personagens vão ser injetados pelo JavaScript -->
+    <main class="container">
+        <div id="character-grid" class="grid">
+            <!-- Os resultados vão aparecer aqui -->
+        </div>
+    </main>
+
+    <!-- Modal para Detalhes da Personagem -->
+    <div id="characterModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <div id="modalBody">
+                <!-- A história e a imagem detalhada vão aparecer aqui -->
+            </div>
+        </div>
+    </div>
+
     <footer>
         <p>Projeto de Programação para a Web © 2026</p>
     </footer>
+
+    <!-- Ligação ao ficheiro JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
